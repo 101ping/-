@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>LOONOOL · 图片审核空间</title>
+  <!-- 外部样式文件 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- 背景装饰层 -->
+  <div class="page-bg"></div>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-left">
+        <div class="logo-dot"></div>
+        <div class="logo-text-group">
+          <div class="logo-main">LOONOOL</div>
+          <div class="logo-sub">图片审核空间 · Image Review Space</div>
+        </div>
+      </div>
+
+      <nav class="navbar-right">
+        <a href="/help" class="nav-link nav-link-ghost">Help</a>
+        <a href="/login" class="nav-link">Login</a>
+        <a href="/signup" class="nav-link nav-primary">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主视觉区域 -->
+  <main class="hero">
+    <section class="hero-content">
+      <div class="hero-left">
+        <div class="hero-pill">
+          <span class="hero-pill-dot"></span>
+          <span class="hero-pill-text">商业图片 · 审核空间 · V1</span>
+        </div>
+
+        <h1 class="hero-title">
+          用 LOONOOL 审核你的图片，<br>
+          做出可放心使用的视觉决策。
+        </h1>
+
+        <p class="hero-subtitle">
+          上传候选图片 · 团队在线讨论 · AI 自动生成审核证据链，<br>
+          为每一次「这张图能不能用？」提供清晰依据。
+        </p>
+
+        <div class="hero-actions">
+          <!-- 如果你想先看动画不跳转，可以暂时把 href 改成 "#" -->
+          <a class="hero-btn" href="/signup">
+            创建图片审核空间
+            <span class="hero-btn-glow"></span>
+          </a>
+          <button class="hero-secondary-btn" type="button">
+            查看我的空间
+          </button>
+        </div>
+
+        <div class="hero-meta">
+          <span>· 每个任务最多 6 张图片</span>
+          <span>· 支持团队协作与证据链</span>
+          <span>· 为商业使用前增加一层安全感</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span class="hero-card-title">当前任务 · 主图选图</span>
+            <span class="hero-card-status">4 / 6 Images</span>
+          </div>
+          <div class="hero-card-grid">
+            <div class="hero-thumb active">
+              <span class="thumb-tag">Final 候选</span>
+            </div>
+            <div class="hero-thumb"></div>
+            <div class="hero-thumb"></div>
+            <div class="hero-thumb muted"></div>
+          </div>
+          <div class="hero-card-footer">
+            <div class="hero-card-footer-left">
+              <span class="hero-chip">Evidence · 5 条</span>
+              <span class="hero-chip alt">Discussion 在线中</span>
+            </div>
+            <button class="hero-mini-btn" type="button">
+              预览报告
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 功能简介区域 -->
+    <section class="features">
+      <h3 class="features-title">LOONOOL 在一张图被「用出去」之前，帮你做的五件事</h3>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h4>多图对比 · Image Review</h4>
+          <p>最多 6 张候选图，统一在一个任务中对比，快速锁定主视觉方向。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h4>团队讨论 · Discussion</h4>
+          <p>用消息流记录每一次讨论与“为什么这么选”，沉淀为决策历史。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h4>审核证据链 · Evidence</h4>
+          <p>上传平台规则、竞品截图、外部链接，让每一次“拍板”都有依据。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h4>AI 分析工具 · Analysis</h4>
+          <p>按风险 / 风格 / 市场维度生成结构化结论，一键保存为证据。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h4>导出结果 · Export</h4>
+          <p>只导出已选定最终图的任务，一次打包交付设计、运营或客户。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 底部 Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-brand">LOONOOL · 商业图片审核系统</span>
+        <div class="footer-links">
+          <a href="/help">帮助中心</a>
+          <a href="#">隐私政策</a>
+          <a href="#">使用条款</a>
+          <a href="#">联系我们</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- 外部脚本文件 -->
+  <script src="main.js"></script>
+</body>
+</html>
